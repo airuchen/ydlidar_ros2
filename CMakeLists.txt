@@ -41,7 +41,7 @@ ament_target_dependencies(ydlidar_client rclcpp std_msgs sensor_msgs)
 install(TARGETS ydlidar_node ydlidar_client
   DESTINATION lib/${PROJECT_NAME})
 install(
-	DIRECTORY launch config
+	DIRECTORY launch
 	DESTINATION share/${PROJECT_NAME}/
 	)
 
