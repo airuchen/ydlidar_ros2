@@ -13,7 +13,7 @@ def generate_launch_description():
             package='tf2_ros',
             node_executable='static_transform_publisher',
             output='screen',
-            arguments=['1', '0', '0', '0', '0', '0', 'base_footprint', 'laser_frame']
+            arguments=['0', '0', '0.235', '3.14', '0', '0', 'base_link', 'laser_frame']
             ),
 
         ])
