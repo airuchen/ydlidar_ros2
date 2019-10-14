@@ -9,12 +9,12 @@ def generate_launch_description():
             package='tf2_ros',
             node_executable='static_transform_publisher',
             output='screen',
-            arguments=['1', '0', '0', '0', '0', '0', 'base_odom', 'base_link']
+            arguments=['1', '0', '0', '0', '0', '0', 'odom', 'base_link']
             ),
         Node(
             package='tf2_ros',
             node_executable='static_transform_publisher',
             output='screen',
-            arguments=['1', '0', '0', '0', '0', '0', 'base_link', 'base_laser']
+            arguments=['1', '0', '0', '0', '0', '0', 'base_link', 'laser_frame']
             ),
         ])
