@@ -8,12 +8,4 @@ def generate_launch_description():
             package='ydlidar',
             node_executable='ydlidar_node',
             output='screen'),
-
-        Node(
-            package='tf2_ros',
-            node_executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0.235', '3.14', '0', '0', 'base_link', 'laser_frame']
-            ),
-
         ])
